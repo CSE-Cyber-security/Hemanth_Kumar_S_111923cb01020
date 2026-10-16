@@ -1,27 +1,38 @@
-# Factorial Program - Week 2
+# Fibonacci Series Program - Week 3
 
 ## Description
-Python program to find the factorial of a given number.
 
-## File: factorial.py
-- Takes integer input from user
-- Calculates factorial using a loop
-- Prints result in format `Factorial of 5 = 120`
+Python program to generate the Fibonacci series for a given number of terms.
+
+## File: fibonacci.py
+
+- Takes the number of terms as input from the user.
+- Generates the Fibonacci series using a program.
+- Displays the Fibonacci series in sequence.
+- Prints the last term with its 1-indexed position and 0-indexed Fibonacci function notation.
 
 ## How to Run
+
 ```bash
-python factorial.py
+python fibonacci.py
 ```
 
 ## Example
-Input:
+
+**Input:**
+```text
+Enter number of terms (e.g. 10): 20
 ```
-Enter a number: 5
-```
-Output:
-```
-Factorial of 5 = 120
+
+**Output:**
+```text
+Fibonacci series (20 terms):
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181
+
+The 20th term (1-indexed) is: 4181
+fib(19) 0-indexed = 4181
 ```
 
 ## Screenshot
-See `output.png` for screenshot of the output.
+
+See `output.png` for a screenshot of the program output.
